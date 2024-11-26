@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage!</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Webpage</h1>
+    <p>Hi! My name is Azhar. This is my personal website created with HTML-5.</p>
+    
+    <!-- Internal navigation link -->
+    <a href="#contact">Contact Me</a>
+
+    <!-- Text and Image -->
+    <h2>About me:</h2>
+    <p>I am a first year student at IITU University. I study programming and improve my design skills in my spare time. I can also knit, cook and play the piano.</p>
+    <img src="myphoto.jpg" alt="A picture of me" width="700" style="max-width: 100%; height: auto;">
+
+    <!-- Animated GIF -->
+    <h2>My Favorite Animation</h2>
+    <img src="catt.gif" alt="Animated GIF of cat">
+    
+    <!-- Video -->
+    <h2>My Favorite Video</h2>
+    <video controls width="700" style="max-width: 100%; height: auto;">
+        <source src="favorite_video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Sound Clip -->
+    <h2>My Favorite Music:</h2>
+    <audio controls>
+        <source src="crybaby.mp3" type="audio/mpeg">
+        Your browser does not support the audio element. Please download the file:
+        <a href="theneighbourhood.crybaby.mp3">Download Crybaby</a>
+    </audio>
+
+    <!-- Table with Inline CSS -->
+    <h2>My Weekly Schedule</h2>
+    <table style="border: 1px solid black; width: 100%; text-align: center;">
+        <tr>
+            <th>Day:</th>
+            <th>Activity:</th>
+        </tr>
+        <tr>
+            <td>1. Monday</td>
+            <td>English courses</td>
+        </tr>
+        <tr>
+            <td>2. Tuesday</td>
+            <td>Cleaning my home</td>
+        </tr>
+        <tr>
+            <td>3. Wednesday</td>
+            <td>Do laboratory work</td>
+        </tr>
+        <tr>
+            <td>4. Thursday</td>
+            <td>Shopping</td>
+        </tr>
+        <tr>
+            <td>5. Friday</td>
+            <td>Bake cakes</td>
+        </tr>
+        <tr>
+            <td>6. Saturday</td>
+            <td>Meeting with my friend</td>
+        </tr>
+        <tr>
+            <td>7. Sunday</td>
+            <td>Back to town</td>
+        </tr>
+    </table>
+
+    <!-- External Links -->
+    <h2>Helpful Resources</h2>
+    <a href="https://www.habr.com" target="_blank">Resource</a>
+
+    <!-- Contact Section with ID for internal link -->
+    <h2 id="contact">Contact Me:</h2>
+    <p>Email: <a href="mailto:azhar.alimbay@gmail.com">azhar.alimbay@gmail.com</a></p>
+</body>
+</html>
